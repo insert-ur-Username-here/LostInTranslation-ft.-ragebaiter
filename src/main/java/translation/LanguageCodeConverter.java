@@ -45,7 +45,7 @@ public class LanguageCodeConverter {
                 // DONE TODO Task A: use line to populate the instance variables
                 String[] arr = line.split("");
                 languageToLanguageCode.put(arr[0], arr[1]);
-                languageCodeToLanguage.put(arr[1], arr[1]);
+                languageCodeToLanguage.put(arr[1], arr[0]);
 
             }
 
